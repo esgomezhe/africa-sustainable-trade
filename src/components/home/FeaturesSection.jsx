@@ -31,7 +31,7 @@ function FeaturesSection() {
   }, []);
 
   return (
-    <section className="features">
+    <section id="Consortium" className="features">
       <div className="container">
 
         <div className="section-title">

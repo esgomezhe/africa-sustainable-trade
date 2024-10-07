@@ -23,7 +23,7 @@ function ServicesSection() {
   }, [])
 
   return (
-    <section className="services">
+    <section id="about" className="services">
       <div className="container">
 
         <div className="section-title">

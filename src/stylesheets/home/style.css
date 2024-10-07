@@ -939,6 +939,87 @@ section {
   }
 }
 
+/* AST Exclusive Roundtables Section */
+.ast-roundtables {
+  padding: 60px 0;
+  background-color: #f3f8fa;
+}
+
+.roundtables-title {
+  color: #FF7D2C;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.ast-roundtables .lead {
+  color: #444;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.roundtables-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.roundtables-list li {
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.roundtables-list i {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  font-size: 20px;
+  color: #6CBB2F;
+}
+
+.btn-apply {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  color: #fff;
+  background-color: #6CBB2F;
+  border: 2px solid #6CBB2F;
+  text-decoration: none;
+}
+
+.btn-apply:hover {
+  background-color: #FF7D2C;
+  border-color: #FF7D2C;
+  color: #fff;
+}
+
+.roundtables-image {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+}
+
+.roundtables-image img {
+  transition: transform 0.5s ease;
+}
+
+.roundtables-image:hover img {
+  transform: scale(1.1);
+}
+
+@media (max-width: 991px) {
+  .ast-roundtables .col-lg-6:last-child {
+    margin-top: 30px;
+  }
+}
+
   /*--------------------------------------------------------------
   # Footer
   --------------------------------------------------------------*/
