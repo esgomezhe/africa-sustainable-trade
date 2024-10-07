@@ -1,24 +1,24 @@
 import React, { useRef, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import '../../stylesheets/home/style.css';
-import videoHomeMP4 from '../../img/herosection/video_home.mp4'; // Primer video
-import videoCleanEnergy from '../../img/herosection/video_clean_energy.mp4'; // Segundo video
-import videoRenewableTech from '../../img/herosection/video_renewable_tech.mp4'; // Tercer video
+import videoHomeMP4 from '../../img/herosection/video_home.mp4';
+import videoCleanEnergy from '../../img/herosection/video_clean_energy.mp4';
+import videoRenewableTech from '../../img/herosection/video_renewable_tech.mp4';
 
 const CarouselItem = ({ title, description, linkText, videoSrc, isFirst }) => {
-  const videoRef = useRef(null); // Crear una referencia al vídeo
+  const videoRef = useRef(null);
 
   useEffect(() => {
     if (isFirst && videoRef.current) {
-      videoRef.current.play(); // Reproducir el vídeo del primer item al cargar
+      videoRef.current.play();
     }
   }, [isFirst]);
 
   return (
     <div className={`carousel-item ${isFirst ? 'active' : ''}`}>
-      <div className="video-wrapper"> {/* Separate wrapper for video */}
+      <div className="video-wrapper">
         <video
-          ref={videoRef} // Asociar el ref al video
+          ref={videoRef}
           className="video-background"
           loop
           muted
@@ -29,7 +29,7 @@ const CarouselItem = ({ title, description, linkText, videoSrc, isFirst }) => {
           Your browser does not support the video tag.
         </video>
       </div>
-      <div className="carousel-container"> {/* Text and buttons separated */}
+      <div className="carousel-container">
         <h2 className="animate__animated animate__fadeInDown">{title}</h2>
         <p className="animate__animated animate__fadeInUp">{description}</p>
         <Link to='' className="btn-get-started animate__animated animate__fadeInUp">{linkText}</Link>
@@ -42,7 +42,6 @@ function HeroSection() {
   useEffect(() => {
     const carousel = document.getElementById("heroCarousel");
 
-    // Evento cuando cambia el ítem del carrusel
     const handleSlide = () => {
       const videos = document.querySelectorAll('.carousel-item video');
 

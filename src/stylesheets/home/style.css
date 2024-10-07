@@ -349,7 +349,7 @@ body {
   right: 0;
   bottom: 0;
   z-index: 1;
-  overflow: hidden; /* Hide overflowing parts */
+  overflow: hidden;
 }
 
 .video-wrapper::before {
@@ -359,7 +359,7 @@ body {
   top: 0;
   width: 130%;
   height: 96%;
-  background: #68A4C4;
+  background: #6CBB2F;
   opacity: 0.3;
   z-index: 2;
   border-radius: 0 0 50% 50%;
@@ -373,7 +373,6 @@ body {
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6));
   z-index: 3;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -381,15 +380,15 @@ body {
 
 /* Video Background */
 #hero .video-background {
-  width: 130%; /* Same width as ::after */
-  height: 95%;  /* Same height as ::after */
+  width: 130%;
+  height: 95%;
   object-fit: cover;
   position: absolute;
   top: 0;
   left: 50%;
-  z-index: 0; /* Video stays behind everything */
-  border-radius: 0 0 50% 50%; /* Apply the same curve */
-  transform: translateX(-50%) rotate(0deg); /* Apply same transformation */
+  z-index: 0;
+  border-radius: 0 0 50% 50%;
+  transform: translateX(-50%) rotate(0deg);
 }
 
 /* Carousel Content (Text and Buttons) */
@@ -434,12 +433,12 @@ body {
   line-height: 1;
   margin: 10px;
   color: #fff;
-  border: 2px solid #6CBB2F;
+  border: 2px solid #FF7D2C;
   z-index: 6;
 }
 
 #hero .btn-get-started:hover {
-  background: #6CBB2F;
+  background: #FF7D2C;
   color: #fff;
   text-decoration: none;
 }
@@ -924,33 +923,51 @@ body {
   /*--------------------------------------------------------------
   # Features
   --------------------------------------------------------------*/
-  .features .row+.row {
-    margin-top: 100px;
-  }
+
+.features {
+  background: linear-gradient(90deg, #1e4356cc, #1e435699), url("../../img/ast-consortium.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.features .row+.row {
+  margin-top: 100px;
+}
+
+.features h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.features h2 {
+  color: #fff
+}
+
+.features p {
+  color: #fff
+}
+
+.features span {
+  color: #fff
+}
   
-  .features h3 {
-    font-weight: 400;
-    font-size: 24px;
-  }
+.features ul {
+  list-style: none;
+  padding: 0;
+}
   
-  .features ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .features ul li {
-    padding-bottom: 10px;
-  }
-  
-  .features ul i {
-    font-size: 20px;
-    padding-right: 4px;
-    color: #6CBB2F;
-  }
-  
-  .features p:last-child {
-    margin-bottom: 0;
-  }
+.features ul li {
+  padding-bottom: 10px;
+}
+
+.features ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #6CBB2F;
+}
+
+.features p:last-child {
+  margin-bottom: 0;
+}
 
   /*--------------------------------------------------------------
   # Footer

@@ -42,14 +42,14 @@ function WhyUsSection() {
               linkTo="/"
               description={
                 <>
-                  C. - Clean Energy and Renewable Technologies<br />
-                  R. - Responsible Agriculture and Food Production<br />
-                  E. - Circular Economy and Waste Management<br />
-                  A. - Artisan Empowerment and Sustainable Textiles<br />
-                  T. - Transformative Creative Industries<br />
-                  I. - Impactful Sustainable Tourism<br />
-                  V. - Visionary Financial and Investment Institutions<br />
-                  E. - Environmental Technology and Innovation
+                  <b>C.</b> - Clean Energy and Renewable Technologies<br />
+                  <b>R.</b> - Renewable Energy and Energy Efficiency<br />
+                  <b>E.</b> - Circular Economy and Waste Management<br />
+                  <b>A.</b> - Artisan Empowerment and Sustainable Textiles<br />
+                  <b>T.</b> - Transformative Creative Industries<br />
+                  <b>I.</b> - Impactful Sustainable Tourism<br />
+                  <b>V.</b> - Visionary Financial and Investment Institutions<br />
+                  <b>E.</b> - Environmental Technology and Innovation
                 </>
               }
             />

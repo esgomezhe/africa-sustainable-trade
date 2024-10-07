@@ -2,7 +2,7 @@ import React from "react";
 import HeroSection from "../components/home/HeroSection";
 import ServicesSection from "../components/home/ServicesSection";
 import WhyUsSection from "../components/home/WhyUsSection";
-//import FeacturesSection from "../components/home/FeaturesSection";
+import FeacturesSection from "../components/home/FeaturesSection";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
       <main id="main">
         <ServicesSection />
         <WhyUsSection />
-        {/* <FeacturesSection /> */}
+        {<FeacturesSection />}
       </main>
     </>
   );

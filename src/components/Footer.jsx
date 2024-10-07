@@ -97,10 +97,10 @@ function Footer() {
 
               <div className="col-lg-3 col-md-6 footer-info">
                 <div className="social-links mt-3">
-                  <a href="/" className="twitter"><i className="bx bxl-twitter"></i></a>
-                  <a href="/" className="facebook"><i className="bx bxl-facebook"></i></a>
-                  <a href="/" className="instagram"><i className="bx bxl-instagram"></i></a>
-                  <a href="/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                  <a href="https://x.com/AfricaSustTrade" className="twitter"><i className="bi bi-twitter-x"></i></a>
+                  <a href="https://hi-in.facebook.com/AfricaSustainableTrade" className="facebook"><i className="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/africasustainabletrade/" className="instagram"><i className="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/company/africa-sustainable-trade/" className="linkedin"><i className="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
