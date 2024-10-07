@@ -24,7 +24,7 @@ export default function GetInvolved() {
   }, []);
 
   return (
-    <section id="GetInvolved" className="get-involved" data-aos="fade-up">
+    <section id="get-involved" className="get-involved" data-aos="fade-up">
       <div className="container">
         <div className="row mt-5">
           <div className="col-12">

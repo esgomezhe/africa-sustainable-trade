@@ -14,7 +14,7 @@ export default function Roundtables() {
   }, []);
 
   return (
-    <section id="Roundtables" className="ast-roundtables" data-aos="fade-up">
+    <section id="roundtables" className="ast-roundtables" data-aos="fade-up">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6">
