@@ -74,7 +74,7 @@ function Header() {
           <ul>
             <li><a href="/">Impact</a></li>
             <li><a href="/pillars/">Pillars</a></li>
-            <li><a href="/creatives/">C.R.E.A.T.I.V.E.S</a></li>
+            <li><a href="/creatives/">C.R.E.A.T.I.V.E</a></li>
             <li><a href="/">Africa Sustainable Trade Consortium</a></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>

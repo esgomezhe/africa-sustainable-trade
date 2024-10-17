@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import '../../stylesheets/home/style.css';
 import videoInnovation from '../../videos/circular_tec.mp4';
 import videoCleanEnergy from '../../videos/hydrogen_tec.mp4';
@@ -32,7 +32,7 @@ const CarouselItem = ({ title, description, linkText, videoSrc, isFirst }) => {
       <div className="carousel-container">
         <h2 className="animate__animated animate__fadeInDown">{title}</h2>
         <p className="animate__animated animate__fadeInUp">{description}</p>
-        <Link to='' className="btn-get-started animate__animated animate__fadeInUp">{linkText}</Link>
+        {/* <Link to='' className="btn-get-started animate__animated animate__fadeInUp">{linkText}</Link> */}
       </div>
     </div>
   );
@@ -68,25 +68,25 @@ function HeroSection() {
       <div id="heroCarousel" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
         <div className="carousel-inner">
           <CarouselItem
-            title="Catalysing Africa's Future: Sustainable Trade and Innovation"
-            description="Join us in transforming Africa's potential into global prosperity through sustainable practices and strategic partnerships."
-            linkText="Register Your Interest for the AST Exclusive Roundtables"
+            title="Global Stakeholders Uniting for Africa’s Sustainable Future"
+            description=""
+            linkText=""
             videoSrc={videoInnovation}
             isFirst={true}
           />
 
           <CarouselItem
-            title="Clean Energy for a Bright Future"
-            description="Find out how we are driving Africa's clean energy revolution."
-            linkText="Explore Our Energy Initiatives"
+            title="Global Stakeholders Uniting for Africa’s Sustainable Future"
+            description=""
+            linkText=""
             videoSrc={videoCleanEnergy}
             isFirst={false}
           />
 
           <CarouselItem
-            title="Renewable Technologies: The Way Forward"
-            description="Innovation and sustainability come together to create a greener Africa."
-            linkText="Get to know our technologies"
+            title="Global Stakeholders Uniting for Africa’s Sustainable Future"
+            description=""
+            linkText=""
             videoSrc={videoRenewableTech}
             isFirst={false}
           />
