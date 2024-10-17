@@ -72,10 +72,10 @@ function Header() {
         </div>
         <nav id="navbar" className="navbar">
           <ul>
-            <li><a href="/#about">About</a></li>
-            <li><a href="/#roundtables">Exclusive Roundtables</a></li>
-            <li><a href="/#consortium">Consortium</a></li>
-            <li><a href="/#get-involved">Get Involved</a></li>
+            <li><a href="/">Impact</a></li>
+            <li><a href="/pillars/">Pillars</a></li>
+            <li><a href="/creatives/">C.R.E.A.T.I.V.E.S</a></li>
+            <li><a href="/">Africa Sustainable Trade Consortium</a></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>
         </nav>

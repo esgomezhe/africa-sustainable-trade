@@ -1,14 +1,15 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+//import InnovateIndustry from '../../img/services/innovate-industry.jpg';
 
-const ServiceItem = ({ iconColor, iconClass, title, linkTo, description, delay }) => (
+const ServiceItem = ({ iconColor, image, title, linkTo, description, delay }) => (
   <div className="col-md-6 col-lg-4 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay={delay}>
     <div className={`icon-box ${iconColor}`}>
-      <div className="icon"><i className={`bx ${iconClass}`}></i></div>
+      <img loading="lazy" src={image} className="services-image" alt={title} />
       <h4 className="title"><Link to={linkTo}>{title}</Link></h4>
       <p className="description">{description}</p>
     </div>
@@ -17,52 +18,38 @@ const ServiceItem = ({ iconColor, iconClass, title, linkTo, description, delay }
 
 function ServicesSection() {
 
-  //effect AOS en el componente
+  // effect AOS en el componente
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
 
   return (
     <section id="about" className="services">
       <div className="container">
 
         <div className="section-title">
-          <h2>About AST</h2>
-          <p>At Africa Sustainable Trade (AST), we envision a future where African nations are not just participants but leaders in sustainable trade and innovation. 
-            We're committed to a future where prosperity doesn't come at the expense of our environment or social values. 
-            Here’s how we're turning this vision into reality with our 3 pillars:</p>
+          <h2>Services</h2>
+          <p>Explore our range of services designed to foster growth, innovation, and sustainability in various sectors. Our approach is focused on creating impact and driving meaningful transformation in the global landscape.</p>
         </div>
 
         <div className="row">
           <ServiceItem
-            iconColor="icon-box-pink"
-            iconClass="bi bi-vector-pen"
             linkTo="/"
-            title="Transforming the Narrative"
-            description="To redefine Africa’s global image, Transforming the Narrative challenges outdated stereotypes by highlighting the continent’s diversity, innovation, 
-            and resilience. Through positive media representation and authentic storytelling, we aim to foster a more accurate and empowering perception of Africa, 
-            enhancing its global standing and inspiring internal growth."
+            title="Innovative Industry Development"
+            description="Our Innovative Industry Development service empowers businesses to thrive in competitive markets by leveraging cutting-edge technologies and streamlined processes. We help industries modernise, optimise workflows, and implement forward-thinking solutions for sustained growth."
           />
 
           <ServiceItem
-            iconColor="icon-box-cyan"
-            iconClass="bi bi-rocket-takeoff"
             linkTo="/"
-            title="Boosting Intra-Africa Trade"
-            description="Boosting Intra-Africa Trade is essential for economic stability and growth within the continent. By removing trade barriers, improving infrastructure, 
-            and harmonising regulations, we create a more integrated and competitive market. This approach reduces reliance on external markets, stimulates local industries, 
-            and fosters job creation, building a resilient and self-sustaining African economy."
+            title="Certification"
+            description="We offer a comprehensive certification service that ensures your organisation meets the highest international standards. Our expertise covers quality assurance, environmental sustainability, and health & safety, providing you with the credentials to excel in today's market."
             delay={100}
           />
 
           <ServiceItem
-            iconColor="icon-box-green"
-            iconClass="bi bi-currency-exchange"
             linkTo="/"
-            title="Growing Global Trade"
-            description="Expanding Africa’s presence in global markets is key to its economic diversification. Growing Global Trade leverages the continent’s natural resources and 
-            entrepreneurial spirit to establish strong international partnerships. By enhancing export capabilities and investing in technology, we aim to increase Africa’s 
-            role in global supply chains, driving prosperity and sustainable development through global collaboration."
+            title="Signature PR and Communication Strategy"
+            description="Our Signature PR and Communication Strategy service crafts bespoke communication campaigns that resonate with your target audience. From media relations to social media engagement, we ensure your message is impactful and strategically aligned with your brand's vision."
             delay={200}
           />
         </div>

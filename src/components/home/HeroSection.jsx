@@ -1,9 +1,9 @@
 import React, { useRef, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import '../../stylesheets/home/style.css';
-import videoHomeMP4 from '../../img/herosection/video_home.mp4';
-import videoCleanEnergy from '../../img/herosection/video_clean_energy.mp4';
-import videoRenewableTech from '../../img/herosection/video_renewable_tech.mp4';
+import videoInnovation from '../../videos/circular_tec.mp4';
+import videoCleanEnergy from '../../videos/hydrogen_tec.mp4';
+import videoRenewableTech from '../../videos/solar_panels.mp4';
 
 const CarouselItem = ({ title, description, linkText, videoSrc, isFirst }) => {
   const videoRef = useRef(null);
@@ -71,7 +71,7 @@ function HeroSection() {
             title="Catalysing Africa's Future: Sustainable Trade and Innovation"
             description="Join us in transforming Africa's potential into global prosperity through sustainable practices and strategic partnerships."
             linkText="Register Your Interest for the AST Exclusive Roundtables"
-            videoSrc={videoHomeMP4}
+            videoSrc={videoInnovation}
             isFirst={true}
           />
 
