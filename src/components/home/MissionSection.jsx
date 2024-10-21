@@ -20,26 +20,40 @@ function MissionSection() {
   }, []);
 
   return (
-    <section className="why-us section-bg" data-aos="fade-up" data-aos-delay="200">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-6 video-box">
-            <img loading="lazy" src={WhyUs} className="img-fluid" alt="" />
-            <Link to={'https://www.youtube.com/watch?v=jDDaplaOz7Q'} className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></Link>
-          </div>
-          <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
-            <IconBox
-              iconClass="bi bi-lightbulb"
-              title="Our Mission"
-              linkTo="/"
-              description="Africa Sustainable Trade (AST) envisions a future where African nations lead in sustainable trade and innovation, driving prosperity 
-              with a focus on environmental stewardship, social responsibility, and 
-              economic sustainability"
-            />
-          </div>
+    <main className="main">
+      <div className="page-title dark-background">
+        <div className="container position-relative">
+          <h2>Pillars</h2>
+          <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
+          <nav className="breadcrumbs">
+            <ol>
+              <li><Link to="/">Home</Link></li>
+              <li className="current">Pillars</li>
+            </ol>
+          </nav>
         </div>
       </div>
-    </section>
+      <section className="why-us section-bg" data-aos="fade-up" data-aos-delay="200">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 video-box">
+              <img loading="lazy" src={WhyUs} className="img-fluid" alt="" />
+              <Link to={'https://www.youtube.com/watch?v=jDDaplaOz7Q'} className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></Link>
+            </div>
+            <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
+              <IconBox
+                iconClass="bi bi-lightbulb"
+                title="Our Mission"
+                linkTo="/"
+                description="Africa Sustainable Trade (AST) envisions a future where African nations lead in sustainable trade and innovation, driving prosperity 
+                with a focus on environmental stewardship, social responsibility, and 
+                economic sustainability"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }
 

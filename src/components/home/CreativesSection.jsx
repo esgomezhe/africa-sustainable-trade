@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../../stylesheets/home/style.css';
@@ -49,25 +50,40 @@ export default function CreativesSection() {
   }, []);
 
   return (
-    <section id="creatives" className="creatives">
-      <div className="container">
-        <div className="section-title" data-aos="fade-up">
+    <main className="main">
+      <div className="page-title dark-background">
+        <div className="container position-relative">
           <h2>C.R.E.A.T.I.V.E</h2>
           <p>AST also emphasizes its CREATIVE verticals, spanning from Clean Energy and Renewable Technologies to Visionary Financial and Investment Institutions. This comprehensive approach extends beyond environmental care to encompass a spectrum of activities that drive economic growth and social equity, such as, enhancing agricultural productivity, fostering eco-friendly textiles and leveraging green technology. Through this holistic strategy, AST aims to act as a catalyst for transformative change, redefining sustainable trade and establishing a lasting legacy for future generations.</p>
-        </div>
-
-        <div className="creatives-grid">
-          {creatives.map((creative, index) => (
-            <Creative
-              key={index}
-              image={creative.image}
-              letter={creative.letter}
-              title={creative.title}
-              description={creative.description}
-            />
-          ))}
+          <nav className="breadcrumbs">
+            <ol>
+              <li><Link to="/">Home</Link></li>
+              <li className="current">C.R.E.A.T.I.V.E</li>
+            </ol>
+          </nav>
         </div>
       </div>
-    </section>
+      <section id="creatives" className="creatives">
+        <div className="container">
+          {/*
+          <div className="section-title" data-aos="fade-up">
+            <h2>C.R.E.A.T.I.V.E</h2>
+            <p>AST also emphasizes its CREATIVE verticals, spanning from Clean Energy and Renewable Technologies to Visionary Financial and Investment Institutions. This comprehensive approach extends beyond environmental care to encompass a spectrum of activities that drive economic growth and social equity, such as, enhancing agricultural productivity, fostering eco-friendly textiles and leveraging green technology. Through this holistic strategy, AST aims to act as a catalyst for transformative change, redefining sustainable trade and establishing a lasting legacy for future generations.</p>
+          </div>*/}
+
+          <div className="creatives-grid">
+            {creatives.map((creative, index) => (
+              <Creative
+                key={index}
+                image={creative.image}
+                letter={creative.letter}
+                title={creative.title}
+                description={creative.description}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }

@@ -67,15 +67,15 @@ function Header() {
       <div className='header__container'>
         <div className='header--logo'>
           <Link to='/'>
-            <img className='header--image' src={require('../img/logo.jpg')} alt="Africa Sustainable Trade" />
+            <img className='header--image' src={require('../img/logo.png')} alt="Africa Sustainable Trade" />
           </Link>
         </div>
         <nav id="navbar" className="navbar">
           <ul>
-            <li><a href="/">Impact</a></li>
+            <li><a href="/impact/">Impact</a></li>
             <li><a href="/pillars/">Pillars</a></li>
             <li><a href="/creatives/">C.R.E.A.T.I.V.E</a></li>
-            <li><a href="/">Africa Sustainable Trade Consortium</a></li>
+            <li><a href="/consortium/">Africa Sustainable Trade Consortium</a></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>
         </nav>

@@ -68,11 +68,10 @@ function Footer() {
               <div className="col-lg-3 col-md-6 footer-links">
                 <h4>Site Map</h4>
                 <ul>
-                  <FooterLink iconClass="bx bx-chevron-right" text="About AST" href="/" />
-                  <FooterLink iconClass="bx bx-chevron-right" text="AST Exclusive Roundtables" href="/" />
-                  <FooterLink iconClass="bx bx-chevron-right" text="Key Initiatives" href="/" />
-                  <FooterLink iconClass="bx bx-chevron-right" text="AST Consortium" href="/" />
-                  <FooterLink iconClass="bx bx-chevron-right" text="Get Involved" href="/" />
+                  <FooterLink iconClass="bx bx-chevron-right" text="Impact" href="/impact/" />
+                  <FooterLink iconClass="bx bx-chevron-right" text="Pillars" href="/pillars/" />
+                  <FooterLink iconClass="bx bx-chevron-right" text="C.R.E.A.T.I.V.E" href="/creatives/" />
+                  <FooterLink iconClass="bx bx-chevron-right" text="Africa Sustainable Trade Consortium" href="/consortium/" />
                 </ul>
               </div>
 
