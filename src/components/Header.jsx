@@ -73,9 +73,10 @@ function Header() {
         <nav id="navbar" className="navbar">
           <ul>
             <li><a href="/impact/">Impact</a></li>
-            <li><a href="/pillars/">Pillars</a></li>
+            <li><a href="/focus/">Focus</a></li>
             <li><a href="/creatives/">C.R.E.A.T.I.V.E</a></li>
             <li><a href="/consortium/">Africa Sustainable Trade Consortium</a></li>
+            <li><a href="/articles/">Articles</a></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>
         </nav>

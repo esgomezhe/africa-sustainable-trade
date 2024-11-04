@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Home, Pillars, Creatives, Impact, Consortium } from "./pages/AllPages";
+import { Home, Focus, Creatives, Impact, Consortium } from "./pages/AllPages";
 import Header from "./components/Header";
 import NotFound from './components/NotFound';
 import Footer from "./components/Footer";
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/impact/' element={<Impact />} />
-        <Route path='/pillars/' element={<Pillars />} />
+        <Route path='/focus/' element={<Focus />} />
         <Route path='/creatives/' element={<Creatives />} />
         <Route path='/consortium/' element={<Consortium />} />
         <Route path='*' element={<NotFound />} />

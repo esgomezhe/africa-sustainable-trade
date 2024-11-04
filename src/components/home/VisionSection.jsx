@@ -23,18 +23,13 @@ function VisionSection() {
             </div>
             <div className="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
               <h3>Our Vision</h3>
+              <br></br>
               <p className="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
+                Africa Sustainable Trade (AST) envisions transforming Africa into a beacon of sustainable trade and economic development, placing the continent at the forefront of global sustainability efforts. Our mission is to champion initiatives that blend economic prosperity, environmental stewardship, and social equity, harnessing Africa’s vast and unique resources—natural, cultural, and creative—to build a resilient and flourishing future.
               </p>
-              <ul>
-                <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                <li><i className="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-              </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+              <br></br>
+              <p className="fst-italic">
+                Through our dedicated pillars, we strive to promote clean energy solutions, support responsible agriculture, advance a circular economy, empower artisans, cultivate thriving creative industries, foster sustainable tourism, encourage visionary financial investments, and drive environmental innovation. AST aims to create a robust ecosystem that not only strengthens local economies but also preserves Africa’s rich heritage, enabling communities to thrive for generations to come. By setting a new standard for sustainable practices in Africa, AST seeks to inspire global respect and recognition for the continent’s contributions to a sustainable and equitable world.
               </p>
             </div>
           </div>

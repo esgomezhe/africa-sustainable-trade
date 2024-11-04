@@ -1,7 +1,7 @@
 import Home from './Home';
-import Pillars from './Pillars';
+import Focus from './Focus';
 import Creatives from './Creatives';
 import Impact from './Impact';
 import Consortium from './Consortium';
 
-export { Home, Pillars, Creatives, Impact, Consortium };
+export { Home, Focus, Creatives, Impact, Consortium };

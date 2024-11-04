@@ -78,11 +78,10 @@ function Footer() {
               <div className="col-lg-3 col-md-6 footer-contact">
                 <h4>Contact Us</h4>
                 <p>
-                  Novotel London West<br />
-                  1 Shortlands Hammersmith<br />
-                  International Ctre, London W6 8DR<br /><br />
-                  <strong>Tel: </strong>(00) 00000<br />
-                  <strong>Email: </strong>contact@ast.com<br />
+                  272 Regents Park Road<br />
+                  London, England<br />
+                  N3 3HN<br /><br />
+                  <strong>Email: </strong>infor@africasustainabletrade.com<br />
                 </p>
               </div>
 

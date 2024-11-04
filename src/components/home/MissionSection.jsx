@@ -23,7 +23,7 @@ function MissionSection() {
     <main className="main">
       <div className="page-title dark-background">
         <div className="container position-relative">
-          <h2>Pillars</h2>
+          <h2>Focus</h2>
           <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
           <nav className="breadcrumbs">
             <ol>
